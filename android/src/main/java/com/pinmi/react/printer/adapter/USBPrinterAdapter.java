@@ -194,7 +194,7 @@ public class USBPrinterAdapter implements PrinterAdapter {
 
         if (mUsbDeviceConnection != null) {
             Log.i(LOG_TAG, "USB Connection already connected");
-            Toast.makeText(mContext, "USB Connection already connected", Toast.LENGTH_LONG).show();
+            // Toast.makeText(mContext, "USB Connection already connected", Toast.LENGTH_LONG).show();
             return true;
         }
 
