@@ -146,6 +146,11 @@ export default function App() {
           key={`printer-item-${index}`}
         />
       ))}
+      <Picker.Item
+        label={"LSDKF"}
+        value={"LSKDJF"}
+        key={`printer-item-${"LSDKFJ"}`}
+      />
     </Picker>
   );
 
